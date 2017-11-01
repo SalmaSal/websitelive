@@ -85,6 +85,7 @@ I use (window.innerHeight/s)*cols to calculate repetition depending on window he
 - Add media="print" attribute in print.css link to make sure browser apply this stylesheet only if the page is being printed.
 - Add async to <script async src="js/perfmatters.js"></script>
 - Add actual Images insted of url .
-- Inline some css to avoid block rendering
+- Inline critical path css by using this tool https://jonassebastianohlsson.com/criticalpathcssgenerator/ .
 - Remove  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 and use javascript , Web Font Loader library .
+- I got 92 /100 for mobile and 94/100 for descktop.
